@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+/usr/bin/php8.1 './core/cmdline.php' $%
