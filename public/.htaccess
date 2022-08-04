@@ -1,3 +1,7 @@
+# Environment variable
+SetEnv APP_PATH "../core/main.php"
+
+# URL Frienly configuration
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
