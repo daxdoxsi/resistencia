@@ -20,110 +20,116 @@ return [
         'default_label' => 'Español',
     ],
 
+    # Memcached
+    'memcached' => [
+        'host' => '127.0.0.1',
+        'port' => '11511',
+    ],
+
     # Routes definition
     'routes' => [
         ''  => [
             'controller'    => 'main',
-            'title'         => t('Inicio|||Home'),
-            'description'   => t('Página principal the Resistencia PHP Framework|||Main Page of Resistencia PHP Framework'),
+            'title'         => 'Inicio|||Home',
+            'description'   => 'Página principal the Resistencia PHP Framework|||Main Page of Resistencia PHP Framework',
             'keyword'       => 'inicio,home,resistencia,php framework,php,developers,development',
             'og:image'      => 'https://www.mysite.com/files/og_image.jpeg'
         ],
-        'about'               => [
+        'about' => [
             'controller'    => 'about',
-            'title'         => t('Acerca de|||About us'),
-            'description'   => t('Acerca de Resistencia PHP Framework|||About Resistencia PHP Framework'),
+            'title'         => 'Acerca de|||About us',
+            'description'   => 'Acerca de Resistencia PHP Framework|||About Resistencia PHP Framework',
             'keyword'       => 'acerca de,about us,resistencia,php framework,php,developers,development',
             'og:image'      => 'https://www.mysite.com/files/og_image.jpeg'
         ],
-        'services'  => [
+        'services' => [
             'controller'    => 'service',
-            'title'         => t('Servicios|||Service'),
+            'title'         => 'Servicios|||Service',
             'description'   => 'Servicios de Resistencia PHP Framework|||Service of Resistencia PHP Framework',
             'keyword'       => 'servicios,services,resistencia,php framework,php,developers,development',
             'og:image'      => 'https://www.mysite.com/files/og_image.jpeg'
         ],
-        'contact'   => [
+        'contact' => [
             'controller'    => 'contact',
-            'title'         => t('Contacto|||Contact Us'),
-            'description'   => t('Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework'),
+            'title'         => 'Contacto|||Contact Us',
+            'description'   => 'Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework',
             'keyword'       => 'inicio,home,resistencia,php framework,php,developers,development',
             'og:image'      => 'https://www.mysite.com/files/og_image.jpeg'
         ],
-        'members'           => [
+        'members' => [
             'controller'    => 'contact',
-            'title'         => t('Contacto|||Contact Us'),
-            'description'   => t('Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework'),
+            'title'         => 'Contacto|||Contact Us',
+            'description'   => 'Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework',
             'keyword'       => 'inicio,home,resistencia,php framework,php,developers,development',
             'og:image'      => 'https://www.mysite.com/files/og_image.jpeg'
         ],
-        'user'              => [
+        'user' => [
             'controller'    => 'contact',
-            'title'         => t('Contacto|||Contact Us'),
-            'description'   => t('Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework'),
+            'title'         => 'Contacto|||Contact Us',
+            'description'   => 'Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework',
             'keyword'       => 'inicio,home,resistencia,php framework,php,developers,development',
             'og:image'      => 'https://www.mysite.com/files/og_image.jpeg'
         ],
-        'user/login'        => [
+        'user/login' => [
             'controller'    => 'contact',
-            'title'         => t('Contacto|||Contact Us'),
-            'description'   => t('Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework'),
+            'title'         => 'Contacto|||Contact Us',
+            'description'   => 'Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework',
             'keyword'       => 'inicio,home,resistencia,php framework,php,developers,development',
             'og:image'      => 'https://www.mysite.com/files/og_image.jpeg'
         ],
-        'user/subscribe'    => [
+        'user/subscribe' => [
             'controller'    => 'contact',
-            'title'         => t('Contacto|||Contact Us'),
-            'description'   => t('Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework'),
+            'title'         => 'Contacto|||Contact Us',
+            'description'   => 'Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework',
             'keyword'       => 'inicio,home,resistencia,php framework,php,developers,development',
             'og:image'      => 'https://www.mysite.com/files/og_image.jpeg'
         ],
-        'user/opt-out'      => [
+        'user/opt-out' => [
             'controller'    => 'contact',
-            'title'         => t('Contacto|||Contact Us'),
-            'description'   => t('Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework'),
+            'title'         => 'Contacto|||Contact Us',
+            'description'   => 'Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework',
             'keyword'       => 'inicio,home,resistencia,php framework,php,developers,development',
             'og:image'      => 'https://www.mysite.com/files/og_image.jpeg'
         ],
-        'user/logout'       => [
+        'user/logout' => [
             'controller'    => 'contact',
-            'title'         => t('Contacto|||Contact Us'),
-            'description'   => t('Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework'),
+            'title'         => 'Contacto|||Contact Us',
+            'description'   => 'Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework',
             'keyword'       => 'inicio,home,resistencia,php framework,php,developers,development',
             'og:image'      => 'https://www.mysite.com/files/og_image.jpeg'
         ],
-        'business'              => [
+        'business' => [
             'controller'    => 'contact',
-            'title'         => t('Contacto|||Contact Us'),
-            'description'   => t('Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework'),
+            'title'         => 'Contacto|||Contact Us',
+            'description'   => 'Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework',
             'keyword'       => 'inicio,home,resistencia,php framework,php,developers,development',
             'og:image'      => 'https://www.mysite.com/files/og_image.jpeg'
         ],
-        'business/login'        => [
+        'business/login' => [
             'controller'    => 'contact',
-            'title'         => t('Contacto|||Contact Us'),
-            'description'   => t('Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework'),
+            'title'         => 'Contacto|||Contact Us',
+            'description'   => 'Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework',
             'keyword'       => 'inicio,home,resistencia,php framework,php,developers,development',
             'og:image'      => 'https://www.mysite.com/files/og_image.jpeg'
         ],
-        'business/subscribe'    => [
+        'business/subscribe' => [
             'controller'    => 'contact',
-            'title'         => t('Contacto|||Contact Us'),
-            'description'   => t('Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework'),
+            'title'         => 'Contacto|||Contact Us',
+            'description'   => 'Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework',
             'keyword'       => 'inicio,home,resistencia,php framework,php,developers,development',
             'og:image'      => 'https://www.mysite.com/files/og_image.jpeg'
         ],
-        'business/opt-out'      => [
+        'business/opt-out'  => [
             'controller'    => 'contact',
-            'title'         => t('Contacto|||Contact Us'),
-            'description'   => t('Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework'),
+            'title'         => 'Contacto|||Contact Us',
+            'description'   => 'Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework',
             'keyword'       => 'inicio,home,resistencia,php framework,php,developers,development',
             'og:image'      => 'https://www.mysite.com/files/og_image.jpeg'
         ],
         'business/logout'       => [
             'controller'    => 'contact',
-            'title'         => t('Contacto|||Contact Us'),
-            'description'   => t('Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework'),
+            'title'         => 'Contacto|||Contact Us',
+            'description'   => 'Página de Contacto de Resistencia PHP Framework|||Contact page from Resistencia PHP Framework',
             'keyword'       => 'inicio,home,resistencia,php framework,php,developers,development',
             'og:image'      => 'https://www.mysite.com/files/og_image.jpeg'
         ],

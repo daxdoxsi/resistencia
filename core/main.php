@@ -1,21 +1,21 @@
 <?php
 
-# Parsing URI
-$uri = trim($_SERVER["REQUEST_URI"]," \t");
+use Resistencia\Classes\Application;
 
-# Extracting language from the URL
-$confPath = __DIR__.'/../.conf.php';
-if (!file_exists($confPath)) die("Configuration file is missing...");
-$conf = require($confPath);
+# Loading Language class
+require __DIR__.'/../src/Resistencia/Libs/Language.php';
+require __DIR__ . '/../src/Resistencia/Classes/Application.php';
 
-switch ($uri) {
-    case '':
-        loadController('main');
-        break;
-    case 'about':
-        loadController('about');
-        break;
-    default:
+$App = new Application();
 
-        break;
-}
+
+
+
+
+
+
+# Init Memcached Server
+// $mc = new Memcached();
+// $mc->addServer($cfg_mc['host'],$cfg_mc['port']);
+// $mc->add('')
+
