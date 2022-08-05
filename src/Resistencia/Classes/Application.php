@@ -21,7 +21,7 @@ class Application {
     public function __construct() {
 
         # Check if configuration file exists
-        $this->configFilePath = __DIR__.'/../.conf.php';
+        $this->configFilePath = __DIR__.'/../../../.conf.php';
         if ( !file_exists($this->configFilePath) ) die("Configuration file is not defined...");
 
         # Reading configuration file
